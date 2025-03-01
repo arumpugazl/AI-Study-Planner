@@ -29,16 +29,15 @@ const Dashboard = () => {
       "Computer Science",
       "English Literature",
     ],
-    dailyGoal: 4, // hours
-    completedToday: 2.5, // hours
-    streak: 7, // days
+    dailyGoal: 4, 
+    completedToday: 2.5, 
+    streak: 7, 
     level: 12,
     xp: 2450,
   };
 
-  // Sample study progress data
   const progressData = [
-    { name: "Mon", hours: 3.5 },
+    { name: "Mon", hours: 1.5 },
     { name: "Tue", hours: 4.2 },
     { name: "Wed", hours: 2.8 },
     { name: "Thu", hours: 3.0 },
@@ -47,7 +46,6 @@ const Dashboard = () => {
     { name: "Sun", hours: 0.8 },
   ];
 
-  // Sample upcoming tasks
   const upcomingTasks = [
     {
       id: 1,
@@ -79,7 +77,6 @@ const Dashboard = () => {
     },
   ];
 
-  // Sample recommended sessions
   const recommendedSessions = [
     {
       id: 1,
